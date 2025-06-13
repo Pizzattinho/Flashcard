@@ -1,0 +1,116 @@
+:root{
+    --fundo: #48D1CC;
+    --cor-frente: #FFFFFF;
+    --destaque: #00FFFF;
+    --branco: #FFFFFF;
+    --preto: #000000;
+
+}
+
+body{
+    background-color: var(--fundo);
+    margin: 0;
+}
+
+header{
+    background-color: #000000;
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    background-color:var(--preto);
+    color:var(--branco);
+    width: 100%;
+    text-align: center;
+}
+#container{
+    padding: 2rem;
+    display: flex;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+
+.cartao{
+    flex-grow: 1;
+    flex-basis: calc(33% - 6rem);
+    height: 20rem;
+    margin: 1rem;
+}
+
+.conteudo-cartao{
+    background-color: var(--cor-frente);
+    color: var(--preto);
+    height: 100%;
+    text-align: center;
+    transform-style: preserve-3d;
+    transition: transform 300ms ease-in-out;
+}
+
+.conteudo-cartao h3{
+    position: absolute;
+    border: 1px solid var(--destaque);
+    color: var(--destaque);
+    margin: 0.6rem;
+    padding: 0.6rem;
+    font-size: 1.2vw;
+    border-radius: 0.6rem;
+    backface-visibility: hidden;
+}
+
+.conteudo-cartao p{
+    margin-top: 4rem;
+    padding: 2rem;
+    font-size: 1.4vw;
+}
+
+.cartao.active .conteudo-cartao{
+    transform: rotateY(180deg)
+}
+
+.pergunta-cartao, .resposta-cartao{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    backface-visibility: hidden;
+}
+
+.resposta-cartao{
+    transform: rotateY(180deg);
+    background-color: var(--cor-verso);
+    color: var(--destaque);
+    border: 2px solid var(--destaque);
+}
+
+Adicionar comentário para a turma...
+
+
+Aviso: "pagina2.html: <!DOCTYPE html> <html…"
+LUCAS SOARES LEDESMA
+Criado em: 27 de mai.27 de mai.
+pagina2.html:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="pagina 2.css">
+</head>
+<body>
+    <header>
+        <a href="index.html">pagina 1</a>
+        <a href="pagina2.html">pagina 2</a>
+    </header>
+    <section id="container">
+
+    </section>
+    <footer>
+        <p>Desenvolvido pelos alunos: Raul e Abner</p>
+    </footer>
+    <script src="pagina 2.js"></script>
+    <script src="perguntas.js"></script>
+</body>
+</html>
