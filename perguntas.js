@@ -24,76 +24,50 @@ criaCartao(
   '476 d.C')
    
   criaCartao(
-  'Biologia - Animália',
-  'Qual caractéristica define um ser desse reino?',
-  'Poder se locomover,e ser heterotrófico')
-   
-    criaCartao(
-    'Biologia - Plantae',
-    'Qual caractéristica define um ser desse reino?',
-    'Capacidade de fotossíntese')
-   
-    criaCartao(
-    'Biologia - Fungi',
-    'Qual caractéristica define um ser desse reino?',
-    'São heterotrófico, e possuirem parede celular')
-   
-    criaCartao(
-    'Biologia - Monera',
-    'Qual caractéristica define um ser desse reino?',
-    ' Ser procarionte')
-   
-    criaCartao(
-    'Biologia - Protoctista',
-    'Qual caractéristica define um ser desse reino?',
-    'Inclui seres unicelulares e multicelulares, serem procariontes')
-   
-    criaCartao(
-    'Biologia - Genética',
-    'O que é um alelo?',
-    'Uma das diferentes formas de um gene')
-   
-    criaCartao(
-    'Matemática - Seno, Cosseno e Tangente',
-    'Qual é a definição de seno em um triângulo retângulo?',
-    'O seno de um ângulo é a razão entre o cateto oposto ao ângulo e a hipotenusa')
-   
-    criaCartao(
-    'Matemática - Seno, Cosseno e Tangente',
-    'Qual é a definição de cosseno em um triângulo retângulo?',
-    'O cosseno de um ângulo é a razão entre o cateto adjacente ao ângulo e a hipotenusa')
-   
-    criaCartao(
-    'Matemática - Seno, Cosseno e Tangente',
-    'Qual é a definição de tangente em um triângulo retângulo?',
-    'A tangente de um ângulo é a razão entre o cateto oposto ao ângulo e o cateto adjacente')
-   
-    criaCartao(
-    'Matemática - Seno, Cosseno e Tangente',
-    'Qual é a relação fundamental entre seno e cosseno em um triângulo retângulo?',
-    'Seno ao quadrado mais cosseno ao quadrado é igual a 1')
-   
-    criaCartao(
-    'Matemática - Seno, Cosseno e Tangente',
-    'Qual é a tangente de 45 graus?',
-    '1')
-   
-    criaCartao(
-    'Português - Romantismo',
-    'Qual é o marco inicial do Romantismo no Brasil?',
-    'A publicação de "Suspiros Poéticos e Saudades" de Gonçalves de Magalhães, em 1836')
-   
-    criaCartao(
-    'Português - Romantismo',
-    'Qual foi o principal autor da primeira geração romântica no Brasil?',
-    'Gonçalves Dias')
-   
-    criaCartao(
-    'Português - Romantismo',
-    'Qual característica do Romantismo é conhecida por valorizar o nacionalismo e o sentimentalismo?',
-    'Exaltação dos sentimentos e da pátria')
-   
-    criaCartao(
-    'Português - Romantismo',
-    'Em qual contexto histórico o Romantismo surgiu no Brasil?',
-    'Durante o período pós-independência do Brasil, no século XIX')
+  'História - Revolução Francesa',
+  'O que foi a Revolução Francesa?',
+  'Um movimento social e político que derrubou a monarquia absolutista na França em 1789')
+criaCartao(
+  'História - Revolução Francesa',
+  'Qual foi a principal causa da Revolução Francesa?',
+  'Desigualdade social e crise econômica agravada pelos altos impostos sobre o povo')
+criaCartao(
+  'História - Revolução Francesa',
+  'O que foi a Queda da Bastilha?',
+  'O ataque à prisão da Bastilha em 14 de julho de 1789, símbolo do início da Revolução')
+criaCartao(
+  'História - Revolução Francesa',
+  'Quem foi Robespierre?',
+  'Líder jacobino da fase radical da Revolução Francesa, ligado ao período do Terror')
+criaCartao(
+  'Geografia - Climas do Brasil',
+  'Qual é o clima predominante na região Norte do Brasil?',
+  'Clima equatorial, quente e úmido o ano todo')
+criaCartao(
+  'Geografia - Climas do Brasil',
+  'Qual é a característica principal do clima semiárido?',
+  'Pouca chuva e altas temperaturas, típico do sertão nordestino')
+criaCartao(
+  'Geografia - Climas do Brasil',
+  'Qual é o clima da região Sul do Brasil?',
+  'Clima subtropical, com estações bem definidas e possibilidade de geadas')
+criaCartao(
+  'Geografia - Climas do Brasil',
+  'O que influencia a variação climática no Brasil?',
+  'Fatores como latitude, relevo, massas de ar e proximidade com o mar')
+criaCartao(
+  'História - Revolução Francesa',
+  'O que foi a Revolução Francesa?',
+  'Um movimento social e político que derrubou a monarquia absolutista na França em 1789')
+criaCartao(
+  'História - Revolução Francesa',
+  'Qual foi a principal causa da Revolução Francesa?',
+  'Desigualdade social e crise econômica agravada pelos altos impostos sobre o povo')
+criaCartao(
+  'História - Revolução Francesa',
+  'O que foi a Queda da Bastilha?',
+  'O ataque à prisão da Bastilha em 14 de julho de 1789, símbolo do início da Revolução')
+criaCartao(
+  'História - Revolução Francesa',
+  'Quem foi Robespierre?',
+  'Líder jacobino da fase radical da Revolução Francesa, ligado ao período do Terror')
